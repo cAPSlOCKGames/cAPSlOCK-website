@@ -51,7 +51,7 @@ html, body{
     margin-right: 10px;
 }
 
-#navigation :visited{
+#navigation :visited, #navigation :active{
     color: black;
 }
 
@@ -93,9 +93,4 @@ p{
     text-align: left;
     background-color: orange;
     color: white;
-}
-
-a :active, a :visited{
-    text-decoration: none;
-    color: inherit;
 }
