@@ -94,3 +94,8 @@ p{
     background-color: orange;
     color: white;
 }
+
+a :active, a :visited{
+    text-decoration: none;
+    color: inherit;
+}
