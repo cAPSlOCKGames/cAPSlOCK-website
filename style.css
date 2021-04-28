@@ -51,7 +51,11 @@ html, body{
     margin-right: 10px;
 }
 
-#navigation :visited, #navigation :link{
+#navigation :visited{
+    color: black;
+}
+
+#navigation :link{
     color: black;
 }
 
