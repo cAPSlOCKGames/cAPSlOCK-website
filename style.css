@@ -1,0 +1,96 @@
+@font-face {
+    font-family: customfont;
+    src: url(Kenney\ Pixel.ttf);
+ }
+
+*{
+    font-family: customfont;
+}
+
+#navigation{
+    padding-top: 15px;
+    float: left;
+    text-align: right;
+    font-size: x-large;
+}
+
+html, body{
+    height: 100%;
+    background-color: rgb(65, 65, 65);
+}
+
+#container{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 100%;
+    background-color: gray;
+}
+
+#header {
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(101, 209, 0);
+    
+}
+
+#main{
+    padding-bottom: 50px;
+}
+
+#footer{
+    text-align: center;
+    background-color: rgb(239, 58, 12);
+    position: relative;
+    height: 25px;
+    margin-top: 50px;
+    clear: both;
+    margin-right: 10px;
+}
+
+#navigation :visited{
+    color: black;
+}
+
+#navigation :hover{
+    color: rgb(239, 58, 12);
+}
+
+#abouttext{
+    position: relative;
+    top: 25px;
+    text-align: center;
+    width: 75%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Headertext{
+    font-size: larger;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+b{
+   color: rgb(239, 58, 12);
+   font-size: x-large; 
+}
+
+p{
+    font-size: xx-large;
+}
+
+#Aiken{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: left;
+    background-color: orange;
+    color: white;
+}
