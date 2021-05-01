@@ -102,3 +102,12 @@ p{
 #logo {
     float: right;
 }
+
+#Updates{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: left;
+    background-color: orange;
+    color: white;
+}
