@@ -8,10 +8,16 @@
 }
 
 #navigation{
-    padding-top: 15px;
+    border: 5px solid black;
     float: left;
-    text-align: right;
-    font-size: x-large;
+    background-color: rgb(101, 209, 0);
+    text-align: center;
+    font-size: xx-large;
+    position: absolute;
+    z-index: 3;
+    width: 25%;
+    height: 100%;
+    visibility: hidden;
 }
 
 html, body{
@@ -55,7 +61,7 @@ html, body{
     color: black;
 }
 
-#navigation :link{
+#link :link{
     color: black;
 }
 
@@ -110,4 +116,23 @@ p{
     text-align: left;
     background-color: orange;
     color: white;
+}
+
+#links{
+    padding-top: 10px;
+}
+
+#navicon{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    z-index: 2;
+}
+
+#exit{
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+    position: absolute;
+    z-index: 4;
 }
