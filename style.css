@@ -8,6 +8,7 @@
 }
 
 #navigation{
+    visibility: hidden;
     border: 5px solid black;
     float: left;
     background-color: rgb(101, 209, 0);
@@ -17,7 +18,6 @@
     z-index: 3;
     width: 25%;
     height: 100%;
-    visibility: hidden;
 }
 
 html, body{
