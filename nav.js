@@ -1,9 +1,8 @@
-function show(){
-    var nav = document.getElementById("navigation")
-    nav.style.visibility = "visible"
-}
-
-function hide(){
-    var nav = document.getElementById("navigation")
-    nav.style.visibility = "hidden"
+function navbtn(input, nav){
+    nav = document.getElementById("navigation")
+    if (input == "show"){
+        nav.style.visibility = "visible"
+    } else if (input == "hide"){
+        nav.style.visibility = "hidden"
+    }
 }
