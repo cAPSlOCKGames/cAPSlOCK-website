@@ -17,7 +17,7 @@
     position: absolute;
     z-index: 3;
     width: 20%;
-    height: 100%;
+    min-height: 40%;
 }
 
 html, body{
