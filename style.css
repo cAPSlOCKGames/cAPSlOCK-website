@@ -7,7 +7,7 @@
     font-family: customfont;
 }
 
-#navigationbar, #links{
+#navigationbar, #links, #hidebr{
     display: none;
 }
 
@@ -19,7 +19,7 @@
     background-color: rgb(101, 209, 0);
     text-align: center;
     font-size: xx-large;
-    width: 90%;
+    width: 75%;
     height: 40px;
 }
 
