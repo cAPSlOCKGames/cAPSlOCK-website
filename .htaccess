@@ -4,4 +4,5 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC, L]
+RewriteRule (?!^folder/)^(.*)$ /folder/$1 [L,NC]
 DirectoryIndex home.html index.html
